@@ -1,0 +1,38 @@
+.header {
+    padding: 10px 32px;
+    height: 128px;
+
+    border-bottom: 1px solid #6A6363;
+    transform: rotate(0.05deg);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo img {
+    width: 292px;
+    height: 48px;
+}
+
+.header__profile {
+    width: 225px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile__image,
+.profile__image img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profile__welcome {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
