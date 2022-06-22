@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container__card {
+  padding: 82px 116px 0px 116px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
