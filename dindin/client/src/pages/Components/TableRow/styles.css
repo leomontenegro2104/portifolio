@@ -1,0 +1,28 @@
+.table__details,
+td {
+    height: 60px;
+    border-bottom: 1px solid #E0E0E0;
+
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+
+    cursor: pointer;
+}
+
+.icon:hover {
+    transform: scale(1.25);
+}
+
+.icon:active {
+    transform: scale(1);
+}
+
+.trash-container {
+    position: relative;
+}

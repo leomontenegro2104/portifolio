@@ -1,0 +1,63 @@
+.container-login {
+  width: 100vw;
+  height: 100vh;
+  padding: 0px 122px 0px 100px;
+
+  background: url('../../assets/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.container-login__login-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-area__introduction {
+  padding: 133px 0px 0px 0px;
+}
+
+.introduction__title {
+  width: 614px;
+  height: 124px;
+
+  font-size: 52px;
+  line-height: 62px;
+}
+
+.introduction__description {
+  width: 600px;
+  height: 99px;
+
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.introduction__btn {
+  width: 284px;
+  height: 52px;
+
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.login-area__login {
+  width: 513px;
+  height: 535px;
+  padding: 60px 32px 49px 32px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login_btn {
+  width: 449px;
+  height: 52px;
+}

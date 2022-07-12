@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.font-lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.font-rubik {
+  font-family: 'Rubik', sans-serif;
+}
+
+.weight300 {
+  font-weight: 300;
+}
+
+.weight400 {
+  font-weight: 400;
+}
+
+.weight500 {
+  font-weight: 500;
+}
+
+.weight600 {
+  font-weight: 600;
+}
+
+.weight700 {
+  font-weight: 700;
+}
+
+.color-white {
+  color: #FFF;
+}
+
+.color-purple {
+  color: #7978D9;
+}
+
+.color-light-purple {
+  color: #7B61FF;
+}
+
+.color-dark {
+  color: #484848;
+}
+
+.color-black {
+  color: #2F2F2F;
+}
+
+.color-input {
+  color: #645FFB;
+}
+
+.color-output {
+  color: #FA8C10;
+}
+
+.color-balance {
+  color: #3A9FF1;
+}
+
+.bg-white {
+  background-color: #FFF;
+}
+
+.bg-purple {
+  background: #7978D9;
+}
+
+.bg-blue {
+  background: #3A9FF1;
+}
+
+.bg-red {
+  background: #FF576B;
+}
+
+.margin-bottom8 {
+  margin-bottom: 8px;
+}
+
+.margin-bottom12 {
+  margin-bottom: 12px;
+}
+
+.margin-bottom16 {
+  margin-bottom: 16px;
+}
+
+.margin-bottom19 {
+  margin-bottom: 19px;
+}
+
+.margin-bottom25 {
+  margin-bottom: 25px;
+}
+
+.margin-bottom31 {
+  margin-bottom: 31px;
+}
+
+.margin-bottom33 {
+  margin-bottom: 33px;
+}
+
+.margin-bottom38 {
+  margin-bottom: 38px;
+}
+
+.margin-bottom43 {
+  margin-bottom: 43px;
+}
+
+.margin-bottom48 {
+  margin-bottom: 48px;
+}
+
+.margin-bottom73 {
+  margin-bottom: 73px;
+}
+
+.margin-bottom109 {
+  margin-bottom: 109px;
+}
+
+.margin-right4 {
+  margin-right: 4px;
+}
+
+.margin-right8 {
+  margin-right: 8px;
+}
+
+.margin-right16 {
+  margin-right: 16px;
+}
+
+.login_signup-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.login_signup-label {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.login-signup-input {
+  width: 449px;
+  height: 63px;
+  padding: 21px 24px;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.btn-purple {
+  background: #7978D9;
+  border-radius: 5px;
+  border: none;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFF;
+
+  cursor: pointer;
+}
+
+.btn-purple:hover {
+  transform: scale(1.05);
+}
+
+.btn-purple:active {
+  transform: scale(1);
+}
+
+.form__input-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.error-message {
+  font-size: 14px;
+  line-height: 17px;
+  color: red;
+}
