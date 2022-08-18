@@ -4,7 +4,7 @@
 
 [Link para o projeto](https://alurastudies.netlify.app/)
 
-Trata-se de uma ferramenta para controle de gerenciamento de disciplas a serem estudadas, definindo o tempo de estudo e acompanhando-o por meio de um cronômetro.
+Trata-se de uma ferramenta para controle de gerenciamento de disciplinas a serem estudadas, definindo o tempo de estudo e acompanhando-o por meio de um cronômetro.
 
 ## Layout Web
 ![Web](https://github.com/leomontenegro2104/portifolio/blob/main/assets/layout-web-alura-studies.png)
