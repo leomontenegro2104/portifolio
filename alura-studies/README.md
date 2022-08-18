@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+# Alura Studies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre o Projeto 🔎
 
-## Available Scripts
+[Link para o projeto](https://calculadorapersonalizada.netlify.app/)
 
-In the project directory, you can run:
+Trata-se de uma ferramenta para controle de gerenciamento de disciplas a serem estudadas, definindo o tempo de estudo e acompanhando-o por meio de um cronômetro.
 
-### `npm start`
+## Layout Web
+![Web](https://github.com/leomontenegro2104/teste01-escribo/blob/main/assets/layout-web.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tecnologias Utilizadas
+* ReactJs;
+* Typescript;
+* SCSS;
+* HTML;
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Implantação em produção
+* Front end: Netlify
 
-### `npm test`
+## Como executar o projeto
+Pré-requisitos: npm / yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# clonar repositório (ssh)
+git clone git@github.com:leomontenegro2104/portifolio.git
 
-### `npm run build`
+# clonar repositório (http)
+git clone https://github.com/leomontenegro2104/portifolio.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# entrar na pasta do projeto 
+cd alura-studies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# instalar dependências
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# executar o projeto
+npm start
+```
+## Testando a aplicação
 
-### `npm run eject`
+1- Insira o nome da disciplina/atividade que deseja estudar;
+2- Insira o tempo que será dedicado a disciplina/atividade;
+3- Clique em "Adicionar";
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Inserindo dados](https://github.com/leomontenegro2104/teste01-escribo/blob/main/assets/exemplo-input.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O resultado será apresentado no quadro abaixo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Exemplo Output](https://github.com/leomontenegro2104/teste01-escribo/blob/main/assets/exemplo-output.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Em caso de erro, uma mensagem será exibida abaixo do botão "calcular"
 
-## Learn More
+Para testar a aplicação sugiro utilizar um dos exemplos abaixo ou fique a vontade para inserir seu numero favorito 😁🤩
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Exemplos:
+- Caso sua função receba o inteiro 10, ela deve retornar 23, resultante do somatório
+dos números 3, 5, 6 e 9 que são menores que 10.
+- Caso sua função receba o inteiro 11, ela deve retornar 33, resultante do somatório
+dos números 3, 5, 6, 9 e 10 que são menores que 11.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Autor
+Leonardo Montengro dos Reis Fernandez Queiroz
+
+https://www.linkedin.com/in/leonardo-montenegro-693b30b5/
