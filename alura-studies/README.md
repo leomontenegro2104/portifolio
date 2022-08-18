@@ -2,12 +2,12 @@
 
 ## Sobre o Projeto 🔎
 
-[Link para o projeto](https://calculadorapersonalizada.netlify.app/)
+[Link para o projeto](https://alurastudies.netlify.app/)
 
 Trata-se de uma ferramenta para controle de gerenciamento de disciplas a serem estudadas, definindo o tempo de estudo e acompanhando-o por meio de um cronômetro.
 
 ## Layout Web
-![Web](https://github.com/leomontenegro2104/teste01-escribo/blob/main/assets/layout-web.png)
+![Web](https://github.com/leomontenegro2104/portifolio/blob/main/assets/layout-web-alura-studies.png)
 
 ## Tecnologias Utilizadas
 * ReactJs;
@@ -39,27 +39,28 @@ npm start
 ```
 ## Testando a aplicação
 
-1- Insira o nome da disciplina/atividade que deseja estudar;
-2- Insira o tempo que será dedicado a disciplina/atividade;
-3- Clique em "Adicionar";
+Insira o que será estudado no campo "Adicione um estudo", em seguida insira o tempo que será dedicado ao estudo e clique em "Adicionar"
 
-![Inserindo dados](https://github.com/leomontenegro2104/teste01-escribo/blob/main/assets/exemplo-input.png)
+![Inserindo dados](https://github.com/leomontenegro2104/portifolio/blob/main/assets/input-alura-studies.png)
 
-O resultado será apresentado no quadro abaixo:
+O item inserido irá aparecer numa lista na lateral a direita:
 
-![Exemplo Output](https://github.com/leomontenegro2104/teste01-escribo/blob/main/assets/exemplo-output.png)
+![Lista de estudos](https://github.com/leomontenegro2104/portifolio/blob/main/assets/lista-alura-studies.png)
 
-Em caso de erro, uma mensagem será exibida abaixo do botão "calcular"
+Para iniciar o estudo, basta clicar em um dos itens da lista que o tempo será automaticamente setado no cronômetro, em seguida basta clicar em "Começar" para dar início a contagem regressiva do tempo.
 
-Para testar a aplicação sugiro utilizar um dos exemplos abaixo ou fique a vontade para inserir seu numero favorito 😁🤩
+![Cronômetro](https://github.com/leomontenegro2104/portifolio/blob/main/assets/cronometro-alura-studies.png)
 
-Exemplos:
-- Caso sua função receba o inteiro 10, ela deve retornar 23, resultante do somatório
-dos números 3, 5, 6 e 9 que são menores que 10.
-- Caso sua função receba o inteiro 11, ela deve retornar 33, resultante do somatório
-dos números 3, 5, 6, 9 e 10 que são menores que 11.
+Quando o tempo se esgotar, o item selecionar será automaticamente marcado como concluído e não será mais possível selecioná-lo novamente.
 
-# Autor
+![Item concluído](https://github.com/leomontenegro2104/portifolio/blob/main/assets/item-conluido-alura-studies.png)
+
+# Instrutor da Alura
+Luiz Fernando Ribeiro dos Prazeres
+
+https://www.linkedin.com/in/lfrprazeres/
+
+# Aluno
 Leonardo Montengro dos Reis Fernandez Queiroz
 
 https://www.linkedin.com/in/leonardo-montenegro-693b30b5/
