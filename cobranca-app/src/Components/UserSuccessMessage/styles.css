@@ -1,0 +1,35 @@
+.userSuccessMessage-container {
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userSuccessMessage-cardContainer {
+    width: 600px;
+    height: 512px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.successImg {
+    width: 104px;
+    margin-bottom: 24px;
+}
+
+.sucessMsg {
+    color: #343447;
+}

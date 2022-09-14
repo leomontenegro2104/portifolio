@@ -1,0 +1,36 @@
+.clientModal-container {
+    width: 100%;
+    height: 100vh;
+
+    position: fixed;
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+}
+
+.clientModal-cardContainer {
+    width: 600px;
+    height: 720px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.clientModal__close-icon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+
+    cursor: pointer;
+}

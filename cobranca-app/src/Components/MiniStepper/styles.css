@@ -1,0 +1,10 @@
+div .ministepper {
+  width: clamp(2rem, 8rem, 8.2rem);
+  height: 0.6rem;
+  border-radius: 2rem;
+  background-color: #DEDEE9;
+}
+
+div .ministepper-active {
+  background-color: #0E8750;
+}

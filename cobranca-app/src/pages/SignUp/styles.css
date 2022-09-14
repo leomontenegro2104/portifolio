@@ -1,0 +1,20 @@
+.signup-grid {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.signup-grid__left,
+.signup-grid__right {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-grid__left {
+    background-color: #F0F0F5;
+}
+
+.signup-grid__right {
+    background-color: #F8F8F9;
+}

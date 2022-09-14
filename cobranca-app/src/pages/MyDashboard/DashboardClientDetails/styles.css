@@ -1,0 +1,15 @@
+div .dashboardClientDetails-container {
+    padding-top: clamp(2%, 5%, 3.4rem);
+    padding-right: clamp(2%, 5%, 11.2rem);
+    padding-bottom: clamp(2%, 5%, 4.5rem);
+    padding-left: clamp(2%, 5%, 10.4rem);
+}
+
+div .dashboardClientDetails__card {
+    padding-top: clamp(1rem, 3%, 2.4rem);
+    padding-right: clamp(1rem, 3%, 2rem);
+    padding-bottom: clamp(1rem, 3%, 2.4rem);
+    padding-left: clamp(1rem, 3%, 2rem);
+    background: #FFFFFF;
+    border-radius: 30px;
+}

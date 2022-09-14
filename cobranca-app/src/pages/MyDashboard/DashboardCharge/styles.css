@@ -1,0 +1,10 @@
+.underConstruction-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.underConstruction-container img {
+    width: 700px;
+}

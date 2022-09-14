@@ -1,0 +1,37 @@
+.chargeDetailsModal__container {
+    width: 100%;
+    height: 100vh;
+
+    position: fixed;
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+}
+
+.chargeDetailsModal__card {
+    width: clamp(10rem, 40%, 60rem);
+    height: clamp(20rem, 95%, 46.1rem);
+
+    background: #FFFFFF;
+    border-radius: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    padding: 4rem 5.5rem;
+}
+
+.chargeDetailsModal__close-icon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+
+    cursor: pointer;
+}

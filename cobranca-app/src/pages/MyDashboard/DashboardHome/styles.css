@@ -1,0 +1,9 @@
+.dashboardHome-container {
+    padding-left: 80px;
+}
+
+.coloredCard-container,
+.chargeCard-container,
+.clientCard-container {
+    display: flex;
+}

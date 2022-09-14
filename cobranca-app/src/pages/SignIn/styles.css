@@ -1,0 +1,23 @@
+.signin-grid {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.signin-grid__left {
+    height: 100vh;
+    background-color: #F0F0F5;
+    background-image: url('../../assets/signin-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 100px 47px;
+}
+
+.signin-grid__right {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F9;
+}

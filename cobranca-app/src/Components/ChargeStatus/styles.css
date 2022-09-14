@@ -1,0 +1,24 @@
+.chargeStatus-container {
+    width: 99px;
+    height: 19px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paga {
+    background: #EEF6F6;
+    color: #1FA7AF;
+}
+
+.pendente {
+    background: #FCF6DC;
+    color: #C5A605;
+}
+
+.vencida {
+    background: #FFEFEF;
+    color: #971D1D;
+}

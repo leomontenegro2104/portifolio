@@ -1,0 +1,58 @@
+.chargeCard {
+    background-color: #FFF;
+    border-radius: 30px;
+    color: #3F3F55;
+
+    width: 368px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
+.chargeCard__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 58px;
+    padding: 0 24px 0 56px;
+
+    border-bottom: 1px solid #EFF0F7;
+}
+
+.header__span {
+    width: 52px;
+    height: 21px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chargeCard__footer {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+}
+
+.footer__link {
+    color: #DA0175;
+}
+
+.green {
+    background: #EEF6F6;
+    color: #1FA7AF;
+}
+
+.yellow {
+    background: #FCF6DC;
+    color: #C5A605;
+}
+
+.red {
+    background: #FFEFEF;
+    color: #971D1D;
+}

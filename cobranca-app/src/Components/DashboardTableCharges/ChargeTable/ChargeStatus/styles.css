@@ -1,0 +1,24 @@
+.clientStatus-container {
+    width: 99px;
+    height: 19px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.defaulter {
+    background: #FFEFEF;
+    color: #971D1D;
+}
+
+.nonDefaulter {
+    background: #EEF6F6;
+    color: #1FA7AF;
+}
+
+.pending {
+    background: #FCF6DC;
+    color: #C5A605;
+}

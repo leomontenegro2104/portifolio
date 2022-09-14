@@ -1,0 +1,34 @@
+.chargeModal-container {
+    width: 100%;
+    height: 100vh;
+
+    position: fixed;
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+}
+
+.chargeModal-cardContainer {
+    background: #FFFFFF;
+    border-radius: 3rem;
+    padding: 4rem 5.7rem 3.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.chargeModal__close-icon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+
+    cursor: pointer;
+}

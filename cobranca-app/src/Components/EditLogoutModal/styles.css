@@ -1,0 +1,52 @@
+.editLogoutModal {
+    position: absolute;
+    top: 45px;
+    left: 200px;
+    z-index: 1;
+
+    background: #FFF;
+    border-radius: 8px;
+
+    width: 92px;
+    height: 51px;
+
+    display: flex;
+    justify-content: center
+}
+
+.arrow {
+    position: absolute;
+    top: -8px;
+    left: 11px;
+}
+
+.editLogoutModal-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 68px;
+}
+
+.edit-container,
+.logout-container {
+    background: none;
+    color: inherit;
+    border: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #747488;
+
+    cursor: pointer;
+}
+
+.editIcon {
+    margin-bottom: 8px;
+}
+
+
+.logoutIcon {
+    margin-bottom: 2px;
+}
